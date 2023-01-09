@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Bảng Tính Lương </string>
+
+    <string name="tangca150">1.Tăng ca ban ngày 150%</string>
+    <string name="tangca200">2.Tăng ca CN 200%</string>
+    <string name="songaynghi80">3.Số ngày nghỉ 80%</string>
+    <string name="congthang">5.Công tháng trừ CN</string>
+    <string name="nghikhongluong">4.Số ngày nghỉ k lương</string>
+    <string name="luogcoban">6.Lương cơ bản</string>
+    <string name="chuyencan">7.Thưởng chuyên cần</string>
+    <string name="xangxe">8.Trợ cấp xăng xe</string>
+    <string name="nhaO">9.Trợ cấp nhà ở</string>
+    <string name="thamnien">10.Trợ cấp thâm niên</string>
+    <string name="trachnhiem">11.Trợ cấp trách nhiệm</string>
+    <string name="tienkhac">13.Trợ cấp khác</string>
+    <string name="doanphi">12.Đoàn phí</string>
+    <string name="cangay100">14.Ca ngày 100%</string>
+    <string name="luongngaycong">17.Lương ngày công</string>
+    <string name="luongtangcangay150">15.Lương TC ngày 150%</string>
+    <string name="luongtangcangaynghi200">16.Lương TC CN 200%</string>
+    <string name="tongluong">18.Tổng lương</string>
+    <string name="tongphucap">19.Tổng phụ cấp</string>
+    <string name="tongluongtinhtangca">20.Tổng lương tính TC</string>
+    <string name="tongluongdongbhxh">21.Tổng lương BHXH</string>
+    <string name="tientru80">22.Tiền trừ ngày nghỉ 80%</string>
+    <string name="trichdongbhxh">23.Trích đóng BHXH</string>
+    <string name="thuclinh">Thực Lĩnh</string>
+</resources>

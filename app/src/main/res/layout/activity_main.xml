@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TableLayout
+                android:id="@+id/lv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tangca150"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/ed_tangcangay150"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="3"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:text="0"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tangca200"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/ed_tangcaCN200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:backgroundTint="#051DB3"
+                    android:ems="3"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:text="0"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/songaynghi80"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/ed_songaynghi80"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="2"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:text="0"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nghikhongluong"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/ed_ngaynghikluong"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="18"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:text="0"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/congthang"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/ed_cognthang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="2"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:text="26"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/luogcoban"
+                    android:textSize="25sp" />
+
+                <com.aldoapps.autoformatedittext.AutoFormatEditText
+                    android:id="@+id/ed_luongcoban"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="9"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:text="5466000"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/chuyencan"
+                    android:textSize="25sp" />
+
+                <com.aldoapps.autoformatedittext.AutoFormatEditText
+                    android:id="@+id/ed_chuyencan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="9"
+                    android:inputType="numberDecimal"
+                    android:text="300000"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/xangxe"
+                    android:textSize="25sp" />
+
+                <com.aldoapps.autoformatedittext.AutoFormatEditText
+                    android:id="@+id/ed_xangxe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="9"
+                    android:inputType="numberDecimal"
+                    android:text="200000"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nhaO"
+                    android:textSize="25sp" />
+
+                <com.aldoapps.autoformatedittext.AutoFormatEditText
+                    android:id="@+id/ed_nhao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="9"
+                    android:inputType="numberDecimal"
+                    android:text="150000"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/thamnien"
+                    android:textSize="25sp" />
+
+                <com.aldoapps.autoformatedittext.AutoFormatEditText
+                    android:id="@+id/ed_thamnien"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="9"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:text="1100000"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/trachnhiem"
+                    android:textSize="25sp" />
+
+                <com.aldoapps.autoformatedittext.AutoFormatEditText
+                    android:id="@+id/ed_trachnhiem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="9"
+                    android:inputType="numberDecimal"
+                    android:text="300000"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/doanphi"
+                    android:textSize="25sp" />
+
+                <com.aldoapps.autoformatedittext.AutoFormatEditText
+                    android:id="@+id/ed_doanphi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="9"
+                    android:inputType="numberDecimal"
+                    android:text="38000"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tienkhac"
+                    android:textSize="25sp" />
+
+                <com.aldoapps.autoformatedittext.AutoFormatEditText
+                    android:id="@+id/edit_trocapkhac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#051DB3"
+                    android:ems="9"
+                    android:inputType="numberDecimal"
+                    android:text="100000"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+                <TextView
+                    android:id="@+id/ketquatinhluong"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Kết quả tính lương"
+                    android:textColor="#052A4E"
+                    android:textSize="30dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/cangay100"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_cangay100"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/luongtangcangay150"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_luongtangcangay150"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/luongtangcangaynghi200"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_luongtangcaCN200"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/luongngaycong"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_luongngaycong"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/tongluong"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_tongluong"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/tongphucap"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_tongphucap"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/tongluongtinhtangca"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_tongluongtinhtc"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/tongluongdongbhxh"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_tongluongdongbhxh"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/tientru80"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_tientru80"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:text="@string/trichdongbhxh"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_trichdongbh"
+                    android:background="@drawable/cumtom_layout_edit"
+                    android:paddingLeft="10dp"
+                    android:textColor="#F40808"
+                    android:textSize="25sp" />
+
+            </TableLayout>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:id="@+id/bt_thuclinh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/cumstom_button"
+                    android:text="@string/thuclinh"
+                    android:textColor="#052A4E" />
+
+                <TextView
+                    android:id="@+id/tv_thuclinh"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cumstom_button"
+                    android:inputType="numberDecimal"
+                    android:textColor="#F40808"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
